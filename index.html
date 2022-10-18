@@ -15,17 +15,19 @@
 </head>
 
 <body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="Button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
-                <a href="#home">JavaScript</a>
+                <a  onclick="getElementById('close-menu').checked = false;" href="#home">JavaScript</a>
             </h1>
             <nav class="nav">
-                <ul>
-                    <li><a href="#utilidade">Utilidade</a></li>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#utilidade">Utilidades</a></li>
                     <li><a href="#bibliotecas">Bibliotecas JS</a></li>
                     <li><a href="#beneficios">Beneficios JS</a></li>
-                    <li><a href="#pricing">Tabelas</a></li>
+                    <li><a href="#pricing">Tabela HTML</a></li>
                     <li><a href="#galeria">Galeria</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </UL>
@@ -40,7 +42,7 @@
             <div class="intro-pag">
 
                 <h2>O que é o JavaScript?</h2>
-                <p>JavaScript é uma linguagem de programação usada por desenvolvedores para criar páginas interativas da
+                <p>&nbsp JavaScript é uma linguagem de programação usada por desenvolvedores para criar páginas interativas da
                     Internet. As funções do JavaScript podem melhorar a experiência do usuário durante a navegação em um
                     site. Por exemplo, atualizando os feeds de mídias sociais ou exibindo animações e mapas interativos.
                     Como uma linguagem de script do lado do cliente, trata-se de uma das principais tecnologias da World
@@ -60,19 +62,19 @@
     <section id="utilidade" class="white-bg section">
         <div class="main-content utilidade-content">
             <h2>Qual a utilidade do JavaScript?</h2>
-            <p>Historicamente, as páginas da Web eram estáticas como páginas em um livro. Uma página estática exibia
+            <p>&nbsp Historicamente, as páginas da Web eram estáticas como páginas em um livro. Uma página estática exibia
                 basicamente informações em um layout fixo e não fazia tudo que esperamos de um site moderno hoje em dia.
                 O JavaScript surgiu como uma tecnologia do lado do navegador para tornar as aplicações Web mais
                 dinâmicas. Usando a linguagem, os navegadores passaram a ser capazes de responder a interações do
                 usuário e alterar o layout do conteúdo na página.<br><br>
 
-                Conforme a linguagem amadureceu, desenvolvedores de JavaScript estabeleceram bibliotecas, frameworks e
+                &nbsp Conforme a linguagem amadureceu, desenvolvedores de JavaScript estabeleceram bibliotecas, frameworks e
                 práticas de programação, além de começar a usá-la fora dos navegadores da Web. Hoje em dia, é possível
                 usar JavaScript para desenvolvimento tanto do lado do cliente quanto do lado do servidor. Nas próximas
                 subseções, apresentamos alguns casos de uso comuns:<br><br>
 
                 <b>Criação de aplicativos móveis e Web</b><br><br>
-                O JavaScript tem uma coleção de bibliotecas internas de código, chamada de frameworks de JavaScript,
+                &nbsp O JavaScript tem uma coleção de bibliotecas internas de código, chamada de frameworks de JavaScript,
                 destinadas ao desenvolvimento de aplicativos móveis e Web. Os desenvolvedores podem usar diversos
                 frameworks de código aberto ou disponíveis gratuitamente e criar aplicativos independentes de plataforma
                 e que podem ser desenvolvidos uma vez e executados em qualquer plataforma. Além disso, o código em
@@ -80,7 +82,7 @@
                 com facilidade na criação de aplicativos móveis.<br><br>
 
                 <b>Desenvolvimento de aplicativos do lado do servidor</b><br><br>
-                Os desenvolvedores usam JavaScript a fim de criar infraestrutura robusta de back-end para aplicativos
+                &nbsp Os desenvolvedores usam JavaScript a fim de criar infraestrutura robusta de back-end para aplicativos
                 modernos. Por exemplo, bibliotecas de JavaScript do lado do servidor tornam os aplicativos de streaming
                 mais eficientes por terem suporte integrado para comunicação contínua entre o cliente e o servidor. De
                 modo semelhante, ferramentas de colaboração online que são sensíveis às entradas e saídas, como a edição
@@ -88,7 +90,7 @@
                 JavaScript.<br><br>
 
                 <b>Desenvolvimento de jogos</b><br><br>
-                O JavaScript é uma linguagem prática de programação que os desenvolvedores podem usar a fim de criar
+                &nbsp O JavaScript é uma linguagem prática de programação que os desenvolvedores podem usar a fim de criar
                 jogos que funcionam diretamente em navegadores. Algumas bibliotecas de código JavaScript permitem que os
                 desenvolvedores criem um jogo viável e o exportem e distribuam de maneira atômica para diferentes
                 plataformas Web e móveis de jogos. Os desenvolvedores também têm suporte para a renderização visual
@@ -100,7 +102,7 @@
     <section id="bibliotecas" class="main-content bibliotecas-content main-bg section">
         <div class="bibliotecas-content">
             <h2 class="grid-main-heading">O que são as bibliotecas de JavaScript?</h2>
-            <p class="grid-description">As bibliotecas de JavaScript são coleções de trechos prontos de código que os
+            <p class="grid-description">&nbsp As bibliotecas de JavaScript são coleções de trechos prontos de código que os
                 desenvolvedores Web podem
                 reutilizar para a execução de funções padrão do JavaScript. O código de biblioteca de JavaScript é
                 conectado
@@ -112,21 +114,21 @@
             <div class="grid">
                 <article>
                     <h3>Visualização de dados</h3><br>
-                    <p>A visualização de dados é crucial para que usuários vejam estatísticas, por exemplo, no painel de
+                    <p>&nbsp A visualização de dados é crucial para que usuários vejam estatísticas, por exemplo, no painel de
                         administração ou sobre métricas de painel e desempenho.
                         Bibliotecas como Chart.js, ApexCharts e Algolia Places têm funções integradas que você pode usar
                         para criar aplicativos Web que exibem dados em gráficos e mapas.</p>
                 </article>
                 <article>
                     <h3 class="dom">Manipulação de DOM</h3><br>
-                    <p>É possível usar bibliotecas como jQuery e Umbrella JS para facilitar o desenvolvimento Web, pois
+                    <p>&nbsp É possível usar bibliotecas como jQuery e Umbrella JS para facilitar o desenvolvimento Web, pois
                         elas
                         oferecem código de funções padrão de sites, como animações de menu, galerias de imagem, botões,
                         caixas de luz e mais.</p>
                 </article>
                 <article>
                     <h3>Formulários</h3><br>
-                    <p>Qualquer desenvolvimento Web usa formulários para que visitantes do site entrem em contato com
+                    <p>&nbsp Qualquer desenvolvimento Web usa formulários para que visitantes do site entrem em contato com
                         alguém, façam pedido de produtos ou o cadastro para eventos. Algumas bibliotecas de JavaScript,
                         como
                         wForms, LiveValidation, Validanguage e qForms, simplificam as funções de criação de formulários,
@@ -138,20 +140,20 @@
 
     <section id="beneficios" class="white-bg section">
         <div class="main-content bibliotecas-content">
-            <h2 class="grid-main-heading">Quais são os benefícios do JavaScript?</h2>
-            <p class="grid-description">Confira abaixo alguns beneficios para se usar o JavaScript :</p><br><br>
+            <h2 class="grid-main-heading">Algumas vantagens do JavaScript</h2>
+            <p class="grid-description">Confira abaixo algumas vantagens ao usar o JavaScript:</p><br><br>
             <div class="grid">
                 <article>
                     <h4>Facilidade de aprendizado e uso</h4><br>
-                    <p>A sintaxe do JavaScript foi inspirada pela linguagem de programação Java, sendo fácil de aprender e codificar. Os desenvolvedores usam JavaScript para criar scripts do lado do cliente em praticamente todos os sites e aplicativos móveis. Durante a última década, o Node.js também ganhou popularidade para codificação de back-end. Muitas plataformas importantes de streaming e vídeo foram codificadas em Node.js.</p>
+                    <p>&nbsp A sintaxe do JavaScript foi inspirada pela linguagem de programação Java, sendo fácil de aprender e codificar. Os desenvolvedores usam JavaScript para criar scripts do lado do cliente em praticamente todos os sites e aplicativos móveis. Durante a última década, o Node.js também ganhou popularidade para codificação de back-end. Muitas plataformas importantes de streaming e vídeo foram codificadas em Node.js.</p>
                 </article>
                 <article>
                     <h4>Autonomia em relação a plataformas</h4><br>
-                    <p>Ao contrário de outras linguagens de programação, é possível inserir JavaScript em qualquer página da Web e usá-lo com vários outros frameworks e linguagens de desenvolvimento Web. Após escrever o código, é possível executá-lo em qualquer máquina. Portanto, o JavaScript faz com que o desenvolvimento de aplicativos seja independente de plataformas.</p>
+                    <p>&nbsp Ao contrário de outras linguagens de programação, é possível inserir JavaScript em qualquer página da Web e usá-lo com vários outros frameworks e linguagens de desenvolvimento Web. Após escrever o código, é possível executá-lo em qualquer máquina. Portanto, o JavaScript faz com que o desenvolvimento de aplicativos seja independente de plataformas.</p>
                 </article>
                 <article>
                     <h4>Melhora da interface do usuário</h4><br>
-                    <p>O JavaScript cria sites elegantes que tornam conveniente encontrar e processar informações complexas. Os desenvolvedores usam o JavaScript para ampliar a funcionalidade e a legibilidade, além de aumentar a eficiência das interações para os usuários do site.</p>
+                    <p>&nbsp O JavaScript cria sites elegantes que tornam conveniente encontrar e processar informações complexas. Os desenvolvedores usam o JavaScript para ampliar a funcionalidade e a legibilidade, além de aumentar a eficiência das interações para os usuários do site.</p>
                 </article>
             </div>
         </div>
@@ -159,10 +161,8 @@
 
     <section id="pricing" class="main-bg section">
         <div class="main-content utilidade-content">
-            <h2>Como funciona uma tabela?</h2>
-            <p>Tabelas possuem estrutura. As informações são facilmente interpretadas fazendo associações visuais entre
-                os cabeçalhos de linha e coluna. Veja a tabela abaixo, por exemplo, e encontre um gigante gasoso Júpiter
-                com 62 luas. Você pode encontrar a resposta associando os cabeçalhos de linha e coluna relevantes.</p>
+            <h2>A estrutura básica de uma tabela HTML</h2>
+            <p>&nbsp As tags que vão formar a estrutura básica de uma tabela em HTML são as tags &lttr&gt e &lttd&gt . A tag &lttr&gt representa uma linha e a tag &lttd&gt representa uma célula. Desta forma, a criação de colunas em uma tabela HTML é feita automaticamente através da quantidade de células incluídas dentro de uma linha. Vejamos abaixo um exemplo de uma tabela criada com HTML</p>
             <br><br>
 
             <div class="responsive-table">
@@ -295,8 +295,12 @@
     </section>
 
     <footer id="footer" class="white-bg footer">
-        <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/giulianorodriguess/">Feito por Giuliano Rodrigues</a></p>
+        <p class="criador">Feito por Giuliano Rodrigues</p>
+        <p class="logo-insta"><a target="_blank" href="https://www.instagram.com/giuliano_rodriguess/"><img src="https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/04/%C3%8Dcone-Instagram-PNG-1024x1024.png" alt="logo instagram"> Instagram</a></p>
+        <p class="logo-insta"><a target="_blank" href="https://www.linkedin.com/in/giulianorodriguess/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="logo instagram"> Linkedin</a></p>
     </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
 
 </body>
 
